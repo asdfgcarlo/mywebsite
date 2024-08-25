@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .navbar {
+    background-color: #C5EBAA;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+    z-index: 999;
+    }
+    .navbar img {
+    border-radius: 50%;
+    height: 85px;
+    }
+    #name {
+    text-decoration: none;
+    color: black;
+    margin-right: auto;
+    margin-left: 20px;
+    font-size: 20px
+    }
+    .buttons {
+    display: flex;
+    align-items: center;
+    }
+    .buttons a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+    font-size: 16px;
+    }
+    .buttons a:hover {
+    color:  #77c16a;
+    }
+    .btn {
+    background-color: #A5DD9B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    }
+    .btn:hover {
+    background-color: #77c16a;
+    }
+    #name:hover {
+    color: #77c16a;
+    }
+    .vid video {
+    height: 550px;
+    width: 50%;
+    padding-bottom: 100px;
+    }
+    .description {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 370px;
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .semifooter {
+    background-color: rgb(241, 241, 241);
+    height: 170px;
+    text-align: center;
+    }
+    .semifooter h2 {
+    padding-top: 30px;
+    }
+    .semifooter .socmed {
+    padding-top: 10px;
+    }
+    .semifooter .socmed a {
+    color: black;
+    letter-spacing: 5px;
+    
+    }
+    .semifooter .socmed a:hover {
+    color: #77c16a;
+    }
+    .main {
+    height: 765px;
+    }
+    #vid {
+    height: 765px;
+    width: 50%;
+    float: left;
+    padding-top: 170px;
+    padding-left: 140px;
+    background-image: url(bgforweb5.jpg);
+    border: 1px solid black;
+    }
+    #des {
+    height: 765px;
+    width: 50%;
+    float: right;
+    padding: 150px;
+    letter-spacing: 2.5px;
+    font-family: cursive;
+    font-weight: bold;
+    background-image: url(bgforweb5.jpg);
+    border: 1px solid black;
+    }
